@@ -19,6 +19,8 @@ The project structure of files and folders is as follows:
   \styles
     default.css
   \js
+    default.js
+    \modules
   index.html
  </pre>
  
