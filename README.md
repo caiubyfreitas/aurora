@@ -10,6 +10,8 @@ This work was based on a freeCodeCamp's <a href="https://www.freecodecamp.org/ne
 - Browsers older than IE11 are disregarded, therefore, "X-UA-Compatible" has no purpose.
 
 The project structure of files and folders is as follows:
+
+<pre>
 \root
   \images
     apple-touch-icon.png
@@ -18,4 +20,5 @@ The project structure of files and folders is as follows:
     default.css
   \js
   index.html
-  
+ </pre>
+ 
