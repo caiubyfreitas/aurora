@@ -8,6 +8,7 @@ This work was based on a freeCodeCamp's <a href="https://www.freecodecamp.org/ne
 - The code was check with https://validator.w3.org and is free of errors and warnings.
 - Self-closing tags were used just for XHTML compatibility.   
 - Browsers older than IE11 are disregarded, therefore, "X-UA-Compatible" has no purpose.
+- Using modules is the default approach instead of the conventional <script> tag.
 
 The project structure of files and folders is as follows:
 
