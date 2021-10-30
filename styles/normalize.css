@@ -1,0 +1,57 @@
+/*
+------------------------------------------------------------------------------------------------------------
+Reset styling to custom default values and declare global variables
+------------------------------------------------------------------------------------------------------------
+*/
+
+:root{
+	--background-color: rgb(255,255,255);
+	--base-font-color: rgb(0,0,0);
+	--base-font-size: 18px; 
+}
+
+.darkMode {
+	--background-color: rgb(0,0,0);
+	--base-font-color: rgb(255,255,255);
+}
+
+html{
+	scroll-behavior: smooth;
+	font-size: var(--base-font-size); /* rem will be used so that font size will be relative this only */
+
+}
+
+*, 
+*::before,
+*::after,
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	z-index: 0;
+	order: 0;
+}
+
+body {
+	background-color: var(--background-color);
+	color: var(--base-font-color);
+}
+
+section {
+	border: 1px solid #f00;
+	z-index: 1;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+img {
+	border-style: none;
+}
+
+ul, li {
+	list-style: none;
+}

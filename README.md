@@ -1,27 +1,35 @@
-# onepager
-Boilerplate for One Pager Site
+# AURORA
 
-As the name suggests these files were created to be reused in projects where a single page site is needed. It relies on pure and responsive HTML, CSS and javascript snippets without any reference to external libraries or resources.
+Aurora is a boilerplate structure for fast web front-end development. The main objective here is to get a fully responsive GUI using the clean coding and raw HTML, CSS and JS only. In addition, this project development was based upon the following guiding principles:
 
-This work was based on a freeCodeCamp's <a href="https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/" target="_blank">article</a> with a similar goal.
+<ol>
+	<li>No external libraries are allowed</li>
+	<li>All HMTL content must pass <a href="https://validator.w3.org">W3 validation criteria</a></li>
+	<li>Self-closing tags are required for XHTML compatibility.</li>
+	<li>No compatibility with browsers older than IE11 ("X-UA-Compatible" has no purpose here)</li>
+	<li>Using modules is not the default approach but must be support because it is so much cool</li>
+</ol>
 
-- The code was check with https://validator.w3.org and is free of errors and warnings.
-- Self-closing tags were used just for XHTML compatibility.   
-- Browsers older than IE11 are disregarded, therefore, "X-UA-Compatible" has no purpose.
-- Using modules is the default approach instead of the conventional <script> tag.
-
-The project structure of files and folders is as follows:
+The minimalist must-have folder/files backbone is as follows:
 
 <pre>
 \root
-  \images
-    apple-touch-icon.png
-    favicon-32x32.png
-  \styles
-    default.css
-  \js
-    default.js
-    \modules
-  index.html
- </pre>
+	index.html
+	\images
+		apple-touch-icon.png
+		favicon-32x32.png
+	\styles
+		normalize.css
+	\scripts
+		main.js
+	\modules
+		--empty--
+</pre>
  
+ The semantics for versioning is based on the three levels. Given a version number MAJOR.MINOR.PATCH, increments will take place RESPECTIVELY when:
+ 
+ <ul>
+ 	<li>incompatible API changes were implemented</li>
+ 	<li>new functionality was included in a backwards compatible manner</li>
+ 	<li>bug fixes were implemented</li>
+</ul>
