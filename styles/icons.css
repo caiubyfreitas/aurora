@@ -1,0 +1,35 @@
+/*
+------------------------------------------------------------------------------------------------------------
+General purpose icons
+------------------------------------------------------------------------------------------------------------
+*/
+
+.icon {
+	display: inline-block;
+	background-repeat: no-repeat;			
+	width: 32px;
+	height: 32px;
+	background-size: contain;
+	background-position: center center;
+}
+.icon .toggle-open {
+	background-image: url("../images/wb/icon-menu-32x32-wb.png");
+}
+.icon .toggle-close {
+	background-image: url("../images/wb/icon-close-32x32-wb.png");	
+}
+.icon .home  {
+	background-image: url("../images/wb/icon-home-24x24-wb.png");	
+	background-position: left center;
+}
+.icon .email {
+	width: 24px;
+	height: 24px;
+	background-image: url('../images/wb/icon-email-32x32-wb.png');
+}
+.icon .account {
+	width: 24px;
+	height: 24px;
+	background-image: url('../images/wb/icon-account-32x32-wb.png');
+	background-position: left center;
+} 
