@@ -7,21 +7,32 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
 	<link rel="stylesheet" type="text/css" href="styles/normalize.css">
 	<link rel="stylesheet" type="text/css" href="styles/icons.css">
-	<link rel="stylesheet" type="text/css" href="styles/header.css">
 	<link rel="stylesheet" type="text/css" href="styles/content.css">
-	<link rel="stylesheet" type="text/css" href="styles/footer.css">
 	<title>Page Title</title>
-	<script type="module" src="scripts/main.js"></script>
+	<script type="module" src="scripts/app.js"></script>
 	<!-- Comment this out for conventional js script loading 
 		<script src="scripts/main.js" defer></script>
 	-->
+	<script language="javascript">
+		// toggle the visibility of the navigation menu on mobile devices 
+		function toggle(obj){
+			const toggles = document.querySelectorAll(".toggle");
+			toggles.forEach (obj => {
+				obj.classList.toggle("enabled");
+			});
+			const overlay = document.querySelector(".overlay");
+			overlay.classList.toggle("visible");
+		}		
+	</script>
 </head>
 <body>
 	<header>
+		<au-snippet-loader source="custom/header.tpe"></au-snippet-loader>	
 	</header>
 	<section id="content" class="content">
 	</section>
 	<footer>
+		<au-snippet-loader source="custom/footer.tpe"></au-snippet-loader>
 	</footer>
 </body>
 </html>

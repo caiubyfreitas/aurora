@@ -1,0 +1,37 @@
+<link rel="stylesheet" type="text/css" href="styles/header.css">
+<div class="topnav">
+	<ul class="nav-items">
+		<li><span class="icon-home"></span><a href="#">Home</a></li>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Dark Mode</a></li>
+		<li><span class="icon-account"></span><a href="#">My Account</a></li>
+	</ul>				
+</div>
+<div class="nav">
+	<div class="nav-brand">
+		<img src="https://fakeimg.pl/250x50/" />
+	</div>
+</div>
+<div class="overlay">
+	<div class="topper-half">
+		<ul class="nav-items">
+			<li><a href="#">Option1</span></a></li>
+			<li><a href="#">Option2</a></li>
+			<li><a href="#">Option3</a></li>
+			<li><a href="#">Option4</a></li>
+		</ul>
+	</div>
+	<div class="separator"></div>
+	<div class="lower-half">
+		<ul class="nav-items">
+			<li><span class="icon-home"></span><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Option 3</a></li>
+			<li><a href="#">Option 4</a></li>
+			<li><a href="#">Option 5</a></li>
+			<li><span class="icon-account"></span><a href="#">My Account</a></li>
+		</ul>				
+	</div>			
+</div>
+<div class="toggle icon-toggle-open enabled" onclick="javacript:toggle(this);"></div>
+<div class="toggle icon-toggle-close" onclick="javascript:toggle(this);"></div>

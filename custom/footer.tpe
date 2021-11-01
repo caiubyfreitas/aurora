@@ -1,0 +1,12 @@
+<link rel="stylesheet" type="text/css" href="styles/footer.css">
+<div class="contact-info">
+	<ul>
+		<li><a href="mailto: caiubyfreitas@gmail.com"><span class="icon-email"></span></a></li>
+		<li><a href="https://www.linkedin.com/in/caiubyfreitas/" target="_blank"><span class="icon-linkedin"></span></a></li>
+	</ul>
+</div>
+<div class="footnotes">
+	<div class="terms"><a href="#">TERMS OF USE</a></div>
+	<div class="terms"><a href="#">PRIVACY NOTE</a></div>
+	<div class="copy">&copy; 2021 UAITEJO CONSULTING &nbsp;&VerticalSeparator;&nbsp; DIGITAL SOLUTIONS FOR YOUR BUSINESS</div>
+</div>
